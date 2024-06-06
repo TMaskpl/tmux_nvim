@@ -1,12 +1,20 @@
 autocmd FileType yaml setlocal ai ts=2 sw=2 et cuc
 autocmd FileType yaml colo desert
-call pathogen#infect()
+set number
+set relativenumber
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set softtabstop=4
+set mouse=a
+"call pathogen#infect()
 syntax on
 filetype plugin indent on
 set nocompatible
 filetype on
 set cursorline
-set cursorcolumn
+"set cursorcolumn
 set shiftwidth=4
 set tabstop=4
 set expandtab
