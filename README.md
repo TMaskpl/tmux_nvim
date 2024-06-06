@@ -10,7 +10,7 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
 apt install -y tmux
-
+```
 
 ## Install Lazyvim
 
@@ -28,3 +28,4 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
 nvim
+```
